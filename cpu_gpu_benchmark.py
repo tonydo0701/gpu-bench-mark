@@ -1,3 +1,5 @@
+#I modified the code from https://medium.com/@erikhallstrm/hello-world-tensorflow-649b15aed18c
+#Most of the code is kept unchanged, except the use of native numpy
 #from __future__ import print_function
 #import matplotlib
 import matplotlib.pyplot as plt
@@ -59,12 +61,3 @@ plt.ylabel('Time')
 plt.xlabel('Matrix size')
 plt.legend(loc='upper left')
 plt.show()
-
-
-    
-    
-
-
-
-
-
